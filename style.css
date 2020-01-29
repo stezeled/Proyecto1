@@ -1,4 +1,64 @@
 .container {
     width: 636px;
-    height: 2450px;
+    height: 1000px;
+    
 }
+
+p {
+    height: 20px;
+    width: 100%;
+    background-color: #e2e2e2;
+}
+
+
+.dropdown {
+    position: absolute;
+    left: 30px;
+    top: 100px;
+}
+
+.logo {
+    position: absolute;
+    left: 480px;
+    top: 50px;
+}
+
+.bar {
+    position: absolute;
+    top: 237px;
+    left: 30px;
+}
+
+button { 
+    background: url(images/hamburger.png) no-repeat;
+}
+
+
+.dropbtn {
+    width: 70px;
+    height: 46px;
+    border: none;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hove {background-color: #ddd;}
+
+.show {display:block}
+
+
